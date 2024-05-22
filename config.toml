@@ -1,0 +1,265 @@
+baseURL = "https://ngocntkt.github.io"
+languageCode = "en-us"
+title = "Ngoc Nguyen"
+theme = "mytheme"
+googleAnalytics = "G-VC5CCJQGFM"
+timeout=3000
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[blackfriday]
+  plainIDAnchors = true
+  hrefTargetBlank = true
+
+[params]
+  # subtitle= "Homepage"
+  interests="Recommender Systems, Modeling of Human Behavior, Artificial Intelligence, Human-Computer Interaction, and Machine Learning"
+  research= "#projects"
+  pub= "#publications"
+  cv =""
+  academics="#tutorials"
+  blog="blogs"
+
+
+# [[params.affilation]]
+#   name = "Free University of Bozen-Bolzano, Italy"
+#   position = "Research Assistant"
+#   contact = "Email: ngoc.nguyen[AT]unibz.it"
+
+ [[params.affilation]]
+    name = "University of Dayton"
+    position = "Assistant Professor"
+    contact = "Email: ngocDOTnguyenATudaytonDOTedu"
+
+[[params.social]]
+  name = "GitHub"
+  icon = "github"
+  url = "https://github.com/ngocntkt"
+
+# [[params.social]]
+#   name = "Twitter"
+#   icon = "twitter"
+#   url = "https://twitter.com/ngocntkt"
+
+[[params.social]]
+    name = "Google Scholar"
+    icon = "book"
+    url = "https://scholar.google.it/citations?user=7xwD7AkAAAAJ&hl=en"
+
+[[params.social]]
+  name = "LinkedIn"
+  icon = "linkedin"
+  url = "https://www.linkedin.com/in/ngocnt/"
+
+[[params.introduction.paragraph]]
+  text="""Welcome! I am an Assistant Professor at the Department of Computer Science at University of Dayton, OH.
+  I was a Visiting Faculty Lecturer at [Miner School of Computer & Information Sciences](https://www.uml.edu/sciences/computer-science/), University of Massachusetts Lowell.
+  Prior to that, I was a postdoctoral researcher at the [Dynamic Decision Making Lab (DDMLab)](https://www.cmu.edu/dietrich/sds/ddmlab/) at Carnegie Mellon University. 
+  I hold a Ph.D. in Computer Science for research on supporting group decision making process with recommendation techniques at the Faculty of Computer Science at the [Free University of Bozen-Bolzano](https://www.unibz.it/en/faculties/computer-science/), Italy.
+   """
+
+[[params.introduction.paragraph]]
+  text="""I am interested in understanding how people learn to make decisions under uncertainty and how to design artificial
+intelligence (AI) systems that effectively support human decision-making processes and are helpful for humans to collaborate
+with when making joint decisions. 
+
+My research combines approaches from psychology, cognitive science, and computer science for the design of automated decision support systems while also using insights from human cognition and advances in machine learning as tools to uncover the computational principles behind human learning and decision-making behavior."""
+
+ #[[params.introduction.paragraph]]
+ # text="""My full first name is _Thuy Ngoc_, which I use for official documents and publications. In all other situations, such as email exchange or day-to-day communications, I simply go by the shorter version, _Ngoc_."""
+
+ #[[params.news]]
+ #  description = "In Fall 2023, I will be starting as a tenure-track Assistant Professor in the Department of Computer Science at University of Dayton, OH."
+
+[[params.projects]]
+	[[params.projects.project]]
+		name = "A chat-based group recommender system"
+		description = "The application domain of this project is point of interests (POIs) recommendations for a group of people. It is a working prototype of group recommender system, an Android mobile application."
+		project_page = "projects/stsgroup"
+		code_link = ""
+		# blog_link = "projects/stsgroup/index.md"
+
+# [[params.projects.project]]
+#		name = "Simulation models for group decision making process"
+#		description  = "Simulation experiments to analyze and gain deeper insights into the interplay between group members' behavior and the performance of group recommendations."
+#		project_page = "projects/simulation"
+#		code_link = ""
+#		# blog_link = "projects/simulation/index.md"
+
+  [[params.projects.project]]
+ 		name = "Visualization of humans playing a search and rescue mission in Minecraft"
+ 		description  = "Visualizing human participants playing a search and rescue task in Minecraft in 2D map."
+ 		project_page = "https://ngocntkt.github.io/visualization-map/demo.html"
+ 		code_link = "https://github.com/ngocntkt/visualization-map"
+ 		# blog_link = "projects/simulation"
+
+  [[params.projects.project]]
+   		name = "Navigation goal-seeking task in Gridworld"
+   		description  = "Interactive navigation goal-seeking task."
+   		project_page = "http://janus.hss.cmu.edu:3001/"
+   		code_link = "https://github.com/ngocntkt/gridworld-task-demo"
+
+  [[params.projects.project]]
+   		name = "One-step goal-seeking task in Gridworld"
+   		description  = "Interactive one-step goal-seeking task."
+   		project_page = "http://janus.hss.cmu.edu:3006/"
+   		#code_link = "https://github.com/ngocntkt/interactive-minimap"
+
+  [[params.projects.project]]
+   		name = "An Interactive Dynamic Decision Making Game for Search and Rescue Missions"
+   		description  = "Interactive minimap game of search and resue mission."
+   		project_page = "http://janus.hss.cmu.edu:5701/demo/"
+   		code_link = "https://github.com/DDM-Lab/MinimapInteractiveDDMGame"
+      blog_link = "projects/minimap/minimap-description.pdf"
+
+
+[[params.tutorials]]
+  [[params.tutorials.paper]]
+    name = "Introduction to Computing (COMP.1010 Computing I)"
+    link = "https://www.uml.edu/catalog/courses/comp/1010"
+    dest  = "University of Massachusetts Lowell, Spring 2023"
+  [[params.tutorials.paper]]
+    name = "SpeedyIBL Tutorial - Bulding cognitive agent models"
+    link = "https://ngocntkt.github.io/speedyibl-tutorial"
+    dest  = "Dynamic Decision Making Lab, CMU, Spring 2022"
+  
+
+[[params.publications]]
+  text="""A full list of my publications is available on [__Google Scholar__](https://scholar.google.it/citations?user=7xwD7AkAAAAJ&hl=en) and [__DBLP__](https://dblp.org/pers/hd/n/Nguyen_0001:Thuy_Ngoc).
+       """
+[[params.publications]]
+  year="Journal articles"
+
+  [[params.publications.paper]]
+		name = "Learning in Cooperative Multiagent Systems Using Cognitive an"
+		authors = "__Nguyen, Thuy Ngoc__, Duy Nhat Phan, and Cleotilde Gonzalez"
+		dest  = "_ACM Transactions on Autonomous and Adaptive Systems_, 2023"
+		link = "https://dl.acm.org/doi/abs/10.1145/3617835"
+		code_link = "https://github.com/DDM-Lab/greedy-hysteretic-lenient-maibl"
+    pdf_link = "https://arxiv.org/pdf/2308.09219.pdf"
+
+  [[params.publications.paper]]
+		name = "Minimap: An Interactive Dynamic Decision Making Game for Search and Rescue Missions"
+		authors = "__Nguyen, Thuy Ngoc__ and Cleotilde Gonzalez"
+		dest  = "_Behavior Research Methods_, 2023"
+		link = "https://link.springer.com/article/10.3758/s13428-023-02149-7"
+		code_link = "https://github.com/DDM-Lab/MinimapInteractiveDDMGame"
+    pdf_link = "projects/minimap/minimap-description.pdf"
+  
+  [[params.publications.paper]]
+		name = "Fostering Collective Intelligence in Human–AI Collaboration: Laying the Groundwork for COHUMAIN"
+		authors = "Pranav Gupta, __Thuy Ngoc Nguyen__, Cleotilde Gonzalez, and Anita Williams Woolley"
+		dest  = "_Topics in Cognitive Science_, 2023"
+		link = "https://onlinelibrary.wiley.com/doi/full/10.1111/tops.12679"
+  
+  [[params.publications.paper]]
+		name = "Teaching agents to understand teamwork: Evaluating and predicting collective intelligence as a latent variable via Hidden Markov Models"
+		authors = "Michelle Zhao, Fade R Eadeh, __Thuy Ngoc Nguyen__, Pranav Gupta, Henny Admoni, Cleotilde Gonzalez, Anita Williams Woolley"
+		dest  = "_Computers in Human Behavior_, 2023"
+		link = "https://www.sciencedirect.com/science/article/pii/S0747563222003442"
+
+  [[params.publications.paper]]
+		name = "SpeedyIBL: A Comprehensive, Precise, and Fast Implementation of Instance-Based Learning Theory"
+		authors = "__Nguyen, Thuy Ngoc__, Duy Nhat Phan, and Cleotilde Gonzalez"
+		dest  = "_Behavior Research Methods_, 2022"
+		link = "https://link.springer.com/article/10.3758/s13428-022-01848-x"
+		code_link = "https://github.com/DDM-Lab/SpeedyIBL"
+    pdf_link = "https://arxiv.org/pdf/2111.10268.pdf"
+
+  [[params.publications.paper]]
+		name = "Theory of Mind From Observation in Cognitive Models and Humans"
+		authors = "__Nguyen, Thuy Ngoc__ and Cleotilde Gonzalez"
+		dest  = "_Topics in Cognitive Science_ (TopiCS), 2021"
+		link = "https://onlinelibrary.wiley.com/doi/abs/10.1111/tops.12553"
+		code_link = ""
+    pdf_link = "https://www.cmu.edu/dietrich/sds/ddmlab/papers/NguyenGonzalez2021.pdf"
+
+  [[params.publications.paper]]
+		name = "Conflict resolution in group decision making: insights from a simulation study"
+		authors = "__Nguyen, Thuy Ngoc__, Francesco Ricci, Amra Delic, and Derek Bridge"
+		dest  = "_User Modeling and User-Adapted Interaction_ (UMUAI), pp. 1-47, 2019"
+		link = "https://link.springer.com/article/10.1007/s11257-019-09240-9"
+		code_link = ""
+		# pdf_link = "papers/UMUAI2019-Ngoc-Preprint.pdf"
+    pdf_link = "https://link.springer.com/content/pdf/10.1007/s11257-019-09240-9.pdf"
+
+  [[params.publications.paper]]
+		name = "A chat-based group recommender system for tourism"
+		authors = "__Nguyen, Thuy Ngoc__ and Francesco Ricci"
+		dest  = "_Journal of Information Technology & Tourism_ (JITT), 18(1-4): 5-28, 2018"
+		link = "https://link.springer.com/article/10.1007/s40558-017-0099-y"
+		code_link = ""
+    pdf_link= "https://www.inf.unibz.it/~ricci/papers/Nguyen-Ricci2018_Article_AChat-basedGroupRecommenderSys.pdf"
+
+  [[params.publications.paper]]
+		name = "An observational user study for group recommender systems in the tourism domain"
+		authors = "Delic, Amra, Julia Neidhardt, __Thuy Ngoc Nguyen__, and Francesco Ricci"
+		dest  = "_Journal of Information Technology & Tourism_ (JITT), 19(1-4): 87-116, 2018"
+		link = "https://link.springer.com/article/10.1007/s40558-018-0106-y"
+		code_link = ""
+    pdf_link ="https://link.springer.com/content/pdf/10.1007%2Fs40558-018-0106-y.pdf"
+
+  [[params.publications]]
+      year="Conference papers"
+
+  [[params.publications.paper]]
+    name = "Cognitive Machine Theory of Mind"
+    authors = "__Nguyen, Thuy Ngoc__ and Cleotilde Gonzalez"
+    dest  = "_42nd Annual Meeting of the Cognitive Science Society_ (CogSci 2020), pp. 2560-2566, July 29-August 1, Virtual meeting, 2020"
+    link = "https://cognitivesciencesociety.org/cogsci20/papers/0612/0612.pdf"
+    code_link = ""
+    pdf_link = "https://cognitivesciencesociety.org/cogsci20/papers/0612/0612.pdf"
+    poster_link = "posters/CogSciNguyenGonzalez2020.pdf"
+
+  [[params.publications.paper]]
+		name = "Situation-dependent combination of long-term and session-based preferences in group recommendations: an experimental analysis"
+		authors = "__Nguyen, Thuy Ngoc__ and Francesco Ricci"
+		dest  = "In _Proceedings of the Symposium on Applied Computing_ (SAC2018), pp. 1366-1373. ACM, 2018"
+		link = "https://dl.acm.org/citation.cfm?id=3167132.3167279"
+		code_link = ""
+    pdf_link = "https://www.inf.unibz.it/~ricci/papers/p1366-nguyen.pdf"
+
+  [[params.publications.paper]]
+    name = "Dynamic elicitation of user preferences in a chat-based group recommender system"
+    authors = "__Nguyen, Thuy Ngoc__ and Francesco Ricci"
+    dest  = "In _Proceedings of the Symposium on Applied Computing_ (SAC2017), 1685-1692. ACM, 2017"
+    link = "https://dl.acm.org/citation.cfm?id=3019764"
+    code_link = ""
+    pdf_link = "https://www.inf.unibz.it/~ricci/papers/p1685-nguyen.pdf"
+
+  [[params.publications.paper]]
+    name = "Combining long-term and discussion-generated preferences in group recommendations"
+    authors = "__Nguyen, Thuy Ngoc__ and Francesco Ricci"
+    dest  = "In _Proceedings of the 25th Conference on User Modelling, Adaptation and Personalization_ (UMAP2017), pp. 377-378. ACM, 2017"
+    link = "https://dl.acm.org/citation.cfm?id=3079645"
+    pdf_link = "https://www.inf.unibz.it/~ricci/papers/p377-nguyen.pdf"
+    code_link = ""
+
+  [[params.publications.paper]]
+    name = "Conversational group recommender systems"
+    authors = "__Nguyen, Thuy Ngoc__"
+    dest  = "In _Proceedings of the 25th Conference on User Modeling, Adaptation and Personalization_ (UMAP2017, Doctoral Consortium), pp. 331-334. ACM, 2017"
+    link = "https://dl.acm.org/citation.cfm?id=3079704"
+    pdf_link = "papers/UMAP2017DC-Ngoc.pdf"
+    code_link = ""
+
+  [[params.publications.paper]]
+      name = "Observing group decision making processes"
+      authors = "Delic, Amra, Julia Neidhardt, __Thuy Ngoc Nguyen__, Francesco Ricci, Laurens Rook, Hannes Werthner, and Markus Zanker"
+      dest  = "In _Proceedings of the 10th ACM conference on recommender systems_ (RecSys2016), pp. 147-150. ACM, 2016"
+      link = "https://dl.acm.org/citation.cfm?id=2959168"
+      pdf_link = "https://www.inf.unibz.it/~ricci/papers/p147-delic.pdf"
+      code_link = ""
+
+  [[params.publications]]
+      year="PhD Thesis"
+  [[params.publications.paper]]
+      name = "Supporting Group Discussions with Recommendation Techniques"
+      authors = "__Nguyen, Thuy Ngoc__"
+      dest  = "Faculty of Computer Science - Free University of Bozen-Bolzano, Italy, 2019"
+      link = "https://bia.unibz.it/handle/10863/10431"
+      pdf_link=""
+      slide_link="https://www.slideshare.net/secret/exEJ3PWonpCv28"
