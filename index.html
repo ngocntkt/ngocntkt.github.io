@@ -88,42 +88,102 @@
 	</nav>
 </div>
 
-			<div class="introduction"><span>
-		Welcome! I am an Assistant Professor at the Department of Computer Science at University of Dayton, OH.
+			<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<div class="introduction"><span>
+		Welcome! I am an Assistant Professor at the Department of Computer Science at University of Dayton (UD), OH.
 My research is broadly connected to the fields of artificial intelligence (AI) and machine learning, human-computer interaction, cognitive science, and computational social sciences.
 I use both experimental and computational approaches to understand how people learn to make decisions under uncertainty and how to design AI-powered systems that effectively support human decision-making processes and are helpful for humans to collaborate with when making joint decisions.
 	</span>
 	<br><span>
-		Prior to the University of Dayton, I spent three years as a postdoctoral fellow at Carnegie Mellon University&rsquo;s Dynamic Decision Making Lab (DDMLab) and six months as a Visiting Faculty Lecturer at the Miner School of Computer &amp; Information Sciences, University of Massachusetts Lowell. I hold a Ph.D. in Computer Science from the Faculty of Computer Science at the Free University of Bozen-Bolzano, Italy, for research on supporting group decision-making processes with recommendation techniques.
+		Prior to UD, I spent three years as a Postdoctoral Fellow at Carnegie Mellon University&rsquo;s Dynamic Decision Making Lab (DDMLab) and six months as a Visiting Faculty Lecturer at the Miner School of Computer &amp; Information Sciences, University of Massachusetts Lowell. I hold a Ph.D. in Computer Science from the Faculty of Computer Science at the Free University of Bozen-Bolzano, Italy, where my research focused on supporting group decision-making processes with conversational recommendation techniques.
 	</span>
 	<br><span>
 		<b>Research Interests:</b> My research interests include personalized, adaptive systems; computational modeling of human behavior; artificial intelligence; human-AI interaction; and machine learning.
 	</span>
-	<div class="slides-container">
-		<div class="iframe-container">
-			<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSjuBdB8JGFKvifyYb2zxBahJeJwSBHTmg63PGl2bLmn4nfxiLggLwL-0txN0aaoYcrYSxotqdGSqA5/embed?start=true&loop=true&delayms=3000" frameborder="0" width="600" height="350" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+	
+
+	<div class="swiper-container">
+		<div class="swiper-wrapper">
+			<div class="swiper-slide"><img src="slides/slide1.gif" alt="Research Themes"></div>
+			<div class="swiper-slide"><img src="slides/slide2.gif" alt="Research Approaches"></div>
+			<div class="swiper-slide"><img src="slides/slide3.gif" alt="Research Project 1"></div>
+			<div class="swiper-slide"><img src="slides/slide4.gif" alt="Research Project 2"></div>
+			<div class="swiper-slide"><img src="slides/slide5.gif" alt="Research Project 3"></div>
 		</div>
+		
+		<div class="swiper-pagination"></div>
+		
+		<div class="swiper-button-next"></div>
+		<div class="swiper-button-prev"></div>
 	</div>
+	
 </div>
 
 <style>
-	.iframe-container {
-		display: flex;
-		justify-content: center; 
-		align-items: center; 
-		height: 100%; 
+	.swiper-container {
+		width: 100%;
+		max-width: 800px;
+		margin: auto;
+		position: relative;  
+		overflow: hidden;  
 	}
-
-	.slides-container {
-		text-align: center; 
-		padding: 20px; 
+  
+	.swiper-slide img {
+		width: 100%;
+		height: auto;
 	}
-
-	.iframe-container iframe {
-		border: none; 
+  
+	.swiper-button-next, .swiper-button-prev {
+		color: #000;  
+		top: 50%;
+		transform: translateY(-50%);
+		width: 50px; 
+		height: 50px; 
+		background: rgba(255, 255, 255, 0.7);  
+		border-radius: 50%;  
+		padding: 5px;  
+		box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);  
+		z-index: 10;  
 	}
+  
+	.swiper-button-next {
+		right: 5px;  
+	}
+  
+	.swiper-button-prev {
+		left: 5px;  
+	}
+  
+	.swiper-button-next::after, .swiper-button-prev::after {
+		font-size: 25px;  
+	}
+  </style>
+  
 
-</style>
+<script>
+	var swiper = new Swiper('.swiper-container', {
+	  spaceBetween: 400, 
+	  centeredSlides: false, 
+	  autoplay: {
+		delay: 5000,
+		disableOnInteraction: false,
+	  },
+	  pagination: {
+		el: '.swiper-pagination',
+		clickable: true,
+	  },
+	  navigation: {
+		nextEl: '.swiper-button-next',
+		prevEl: '.swiper-button-prev',
+	  },
+	  slidesPerView: 1, 
+	});
+  </script>
+
+
+
 
 			<div class="introduction">
 	
@@ -164,7 +224,7 @@ I use both experimental and computational approaches to understand how people le
 			<div class="project-container">
 				
 					<div class="project-image">
-						<img src="images/CMOTP.gif" alt="Cognitive and Machine Learning Models for Cooperative Multiagent Systems image">
+						<img src="images/CMOTP-2.gif" alt="Cognitive and Machine Learning Models for Cooperative Multiagent Systems image">
 					</div>
 				
 				<div class="project-details">

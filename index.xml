@@ -9,11 +9,18 @@
     <lastBuildDate>Wed, 22 May 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://ngocntkt.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title></title>
+      <title>Publications</title>
       <link>https://ngocntkt.github.io/publications/</link>
       <pubDate>Wed, 22 May 2024 00:00:00 +0000</pubDate>
       <guid>https://ngocntkt.github.io/publications/</guid>
       <description>Publications A full list of my publications is available on Google Scholar.&#xA;Journal Articles &lt;!DOCTYPE HTML PUBLIC &#34;-//W3C//DTD HTML 4.01 Transitional//EN&#34;&gt; references [1] Thuy&amp;nbsp;Ngoc Nguyen and Cleotilde Gonzalez. Minimap: an interactive dynamic decision making game for search and rescue missions. Behavior Research Methods, 56(3):2311--2332, 2024. [2] Thuy&amp;nbsp;Ngoc Nguyen, Duy&amp;nbsp;Nhat Phan, and Cleotilde Gonzalez. Learning in cooperative multiagent systems using cognitive and machine models. ACM Transactions on Autonomous and Adaptive Systems, 18(4):1--22, 2023.</description>
+    </item>
+    <item>
+      <title>Teaching</title>
+      <link>https://ngocntkt.github.io/teaching/</link>
+      <pubDate>Wed, 22 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://ngocntkt.github.io/teaching/</guid>
+      <description>Teaching Data Structures &amp;amp; Algorithms (CPS 350) - Spring 2024 Destination: University of Dayton Link: Course Catalog Data Science (CPS 349) - Spring 2024 Destination: University of Dayton Link: Course Catalog Introduction to Artificial Intelligence (CPS 480 / CPS 580) - Fall 2023 Destination: University of Dayton Link: Course Catalog Introduction to Computing (COMP.1010 Computing I) - Spring 2023 Destination: University of Massachusetts Lowell, Spring 2023 Link: Course Catalog SpeedyIBL Tutorial - Building Cognitive Agent Models Destination: Dynamic Decision Making Lab, CMU, Spring 2022 Link: Tutorial </description>
     </item>
     <item>
       <title>Simulation models for group decision making process</title>
@@ -49,13 +56,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ngocntkt.github.io/publications_bib/</guid>
       <description>&lt;!DOCTYPE HTML PUBLIC &#34;-//W3C//DTD HTML 4.01 Transitional//EN&#34;&gt; references.bib references.bib @article{nguyen2024minimap, title = {Minimap: an interactive dynamic decision making game for search and rescue missions}, author = {Nguyen, Thuy Ngoc and Gonzalez, Cleotilde}, journal = {Behavior Research Methods}, volume = {56}, number = {3}, pages = {2311--2332}, year = {2024}, publisher = {Springer} } @article{nguyen2023learning, title = {Learning in Cooperative Multiagent Systems Using Cognitive and Machine Models}, author = {Nguyen, Thuy Ngoc and Phan, Duy Nhat and Gonzalez, Cleotilde}, journal = {ACM Transactions on Autonomous and Adaptive Systems}, volume = {18}, number = {4}, pages = {1--22}, year = {2023}, publisher = {ACM New York, NY} } @article{nguyen2023speedyibl, title = {SpeedyIBL: A comprehensive, precise, and fast implementation of instance-based learning theory}, author = {Nguyen, Thuy Ngoc and Phan, Duy Nhat and Gonzalez, Cleotilde}, journal = {Behavior Research Methods}, volume = {55}, number = {4}, pages = {1734--1757}, year = {2023}, publisher = {Springer} } @article{gupta2023fostering, title = {Fostering collective intelligence in human--AI collaboration: laying the groundwork for COHUMAIN}, author = {Gupta, Pranav and Nguyen, Thuy Ngoc and Gonzalez, Cleotilde and Woolley, Anita Williams}, journal = {Topics in Cognitive Science}, year = {2023}, publisher = {Wiley Online Library} } @article{zhao2023teaching, title = {Teaching agents to understand teamwork: Evaluating and predicting collective intelligence as a latent variable via Hidden Markov Models}, author = {Zhao, Michelle and Eadeh, Fade R and Nguyen, Thuy-Ngoc and Gupta, Pranav and Admoni, Henny and Gonzalez, Cleotilde and Woolley, Anita Williams}, journal = {Computers in Human Behavior}, volume = {139}, pages = {107524}, year = {2023}, publisher = {Elsevier} } @article{nguyen2021theory, title = {Theory of mind from observation in cognitive models and humans}, author = {Nguyen, Thuy Ngoc and Gonzalez, Cleotilde}, journal = {Topics in Cognitive Science}, year = {2021} } @article{phan2021accelerated, title = {An accelerated irnn-iteratively reweighted nuclear norm algorithm for nonconvex nonsmooth low-rank minimization problems}, author = {Phan, Duy Nhat and Nguyen, Thuy Ngoc}, journal = {Journal of Computational and Applied Mathematics}, volume = {396}, pages = {113602}, year = {2021}, publisher = {Elsevier} } @article{nguyen2019conflict, title = {Conflict resolution in group decision making: insights from a simulation study}, author = {Nguyen, Thuy Ngoc and Ricci, Francesco and Delic, Amra and Bridge, Derek}, journal = {User Modeling and User-Adapted Interaction}, volume = {29}, pages = {895--941}, year = {2019}, publisher = {Springer} } @article{nguyen2018chat, title = {A chat-based group recommender system for tourism}, author = {Nguyen, Thuy Ngoc and Ricci, Francesco}, journal = {Information Technology \&amp; Tourism}, volume = {18}, pages = {5--28}, year = {2018}, publisher = {Springer} } @article{delic2018observational, title = {An observational user study for group recommender systems in the tourism domain}, author = {Delic, Amra and Neidhardt, Julia and Nguyen, Thuy Ngoc and Ricci, Francesco}, journal = {Information Technology \&amp; Tourism}, volume = {19}, pages = {87--116}, year = {2018}, publisher = {Springer} } This file was generated by bibtex2html 1.</description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://ngocntkt.github.io/teaching/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ngocntkt.github.io/teaching/</guid>
-      <description>Teaching Data Structures &amp;amp; Algorithms (CPS 350) - Spring 2024 Destination: University of Dayton Link: Course Catalog Data Science (CPS 349) - Spring 2024 Destination: University of Dayton Link: Course Catalog Introduction to Artificial Intelligence (CPS 480 / CPS 580) - Fall 2023 Destination: University of Dayton Link: Course Catalog Introduction to Computing (COMP.1010 Computing I) - Spring 2023 Destination: University of Massachusetts Lowell, Spring 2023 Link: Course Catalog SpeedyIBL Tutorial - Building Cognitive Agent Models Destination: Dynamic Decision Making Lab, CMU, Spring 2022 Link: Tutorial </description>
     </item>
   </channel>
 </rss>
