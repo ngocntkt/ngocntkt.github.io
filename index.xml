@@ -6,8 +6,15 @@
     <description>Recent content on Ngoc Nguyen</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 22 May 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 Aug 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://ngocntkt.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://ngocntkt.github.io/research/</link>
+      <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://ngocntkt.github.io/research/</guid>
+      <description>Computation and Decision-Making (CDM) Lab At the Computation and Decision-Making Lab, directed by Dr. Ngoc Nguyen, we delve into the computational models of decision-making and social interaction in both humans and intelligent machines. Our interdisciplinary research integrates insights and methodologies from cognitive science, social psychology, machine learning, and artificial intelligence. We focus on these key areas:&#xA;AI-assisted Decision-Making Systems Human-AI Collaboration Personalized Adaptive Modeling Multiagent Systems Research Themes and Approaches &lt;!</description>
+    </item>
     <item>
       <title>Publications</title>
       <link>https://ngocntkt.github.io/publications/</link>
