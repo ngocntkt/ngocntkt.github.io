@@ -1,0 +1,32 @@
+name: Deploy Hugo site to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main  # or master, depending on your default branch
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          submodules: true
+          fetch-depth: 0
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: 'latest'
+          extended: true  # If you're using SCSS/SASS
+
+      - name: Build
+        run: hugo --minify
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
+          cname: ngocntkt.github.io  # Replace with your actual domain if different
