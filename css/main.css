@@ -125,6 +125,8 @@ h2 {
 
 h3 {
   font-size: 1.6rem;
+  color: #059;
+  border-bottom: 1px solid rgb(221, 221, 221);
 }
 
 h4 {
