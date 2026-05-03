@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Ngoc Nguyen</title>
+    <link>https://ngocntkt.github.io/projects/</link>
+    <description>Recent content in Projects on Ngoc Nguyen</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 27 Aug 2019 16:36:11 +0430</lastBuildDate>
+    <atom:link href="https://ngocntkt.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Simulation models for group decision making process</title>
+      <link>https://ngocntkt.github.io/projects/simulation/</link>
+      <pubDate>Tue, 27 Aug 2019 16:36:11 +0430</pubDate>
+      <guid>https://ngocntkt.github.io/projects/simulation/</guid>
+      <description>The motivation behind exploiting simulation experiments is that while a user study is useful and important to understand whether a recommendation model is effective and well-accepted by users, the study itself is yet adequate to fully assess the model performance in numerous potential group situations, given the dynamics of group decision making process.&#xA;Our first proposed simulation model of a group discussion has been used to study the impact of alternative combinations of long-term and session-based preferences on the recommendation performance in different group scenarios.</description>
+    </item>
+    <item>
+      <title>South Tyrol Suggests for Groups (STSGroup)</title>
+      <link>https://ngocntkt.github.io/projects/stsgroup/</link>
+      <pubDate>Mon, 26 Aug 2019 16:36:11 +0430</pubDate>
+      <guid>https://ngocntkt.github.io/projects/stsgroup/</guid>
+      <description>The developed system is called &amp;ldquo;South Tyrol Suggests for Groups&amp;rdquo; (STSGroup) featuring a chat-based interface. Basically, the system enables group members to join a chat environment where they can express opinions through messages, POI proposals and evaluations. Based on the group members&amp;rsquo; actions, the system then tries to provide them with new group recommendations and choice suggestions.&#xA;The whole idea behind the chat-based interface design is to support the group discussion process by fostering communication between group members instead of only focusing on negotiation mechanisms.</description>
+    </item>
+  </channel>
+</rss>
